@@ -1558,6 +1558,17 @@ pre {
     .table-responsive-sm > .table-bordered {
       border: 0; } }
 
+ @media (max-width: 575.98px) {
+
+  #cardgame {
+        display: none;
+        }      
+        .divHTML {
+          display: none;
+        }
+      }
+   
+
 @media (max-width: 767.98px) {
   .table-responsive-md {
     display: block;
@@ -4874,6 +4885,9 @@ a.close.disabled {
       height: calc(100vh - 3.5rem); }
   .modal-sm {
     max-width: 300px; } }
+
+
+
 
 @media (min-width: 992px) {
   .modal-lg,
